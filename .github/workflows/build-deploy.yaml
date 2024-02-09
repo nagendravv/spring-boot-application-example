@@ -32,7 +32,7 @@ jobs:
       uses: azure/webapps-deploy@v2
 
       with:
-        app-name: 'SPRING-BOOT-APPLICATION-EXAMPLE'
+        app-name: 'SPRING-BOOT-APPLICATION-EXAMPLE2'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_7f47878fe7064bbfa1cc1b246d5163c7 }}
         package: '${{ github.workspace }}/target/*.jar'
